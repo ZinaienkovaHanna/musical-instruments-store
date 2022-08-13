@@ -5,6 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
 
 :root {
     font-family: 'Work Sans', sans-serif;
@@ -13,8 +21,6 @@
     --h2-text-color: rgb(248, 184, 3);
     --h3-text-color: rgb(36, 36, 36);
     --text-color-price: rgb(102, 153, 4);
-
-
 }
 
 .material-symbols-outlined {
@@ -24,5 +30,9 @@
   'GRAD' 0,
   'opsz' 48
 }
-
+.span__dot {
+  color: var(--h2-text-color);
+}
+/* .button {
+} */
 
