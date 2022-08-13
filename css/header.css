@@ -21,19 +21,10 @@
 
 
 
-.header {
-}
-.header__container {
-    
-}
-.container__subheader {
-    
-}
 .subheader__title {
     color: var(--text-color);
 }
-.subheader__contacts {
-}
+
 .subheader__email {
     color: var(--text-color);
 }
@@ -50,18 +41,13 @@
     min-height: 56px;
     
 }
-.navbar__nav {
-}
-.nav__item {
-    
-}
+
 .nav__link {
     color: var(--text-color-background);
     font-size: 14px;
     font-weight: 700;
 }
-.header__social {
-}
+
 .header__social [class*="icon__"] {
     width: 25px;
 }
