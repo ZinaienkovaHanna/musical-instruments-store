@@ -1,12 +1,12 @@
-/* [class*="__container"] {
+[class*="__container"] {
     max-width: 1200px;
     width: 100%;
     margin: auto;
     padding: 0px 15px;
-  } */
-  .container {
+  }
+  /* .container {
     max-width: 1200px;
     width: 100%;
     margin: auto;
     padding: 0px 15px;
-}
+} */
