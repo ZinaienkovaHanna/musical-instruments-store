@@ -1,3 +1,9 @@
-h1{
-    color: rgb(136, 128, 53)
-} 
+@import url(common.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(advertisement.css); /* 2-3-4 */
+@import url(nea-arrivals.css);
+@import url(sale.css);  /* 6-7 */
+
+
+@import url(footer.css);
