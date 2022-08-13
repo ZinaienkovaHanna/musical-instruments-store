@@ -14,5 +14,5 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-$(".owl-next").html('<i class="material-symbols-outlined"> arrow_back_ios </i>');
+$(".owl-next").html('<i class="material-symbols-outlined" style="color: red"> arrow_back_ios </i>');
 $(".owl-prev").html('<i class="material-symbols-outlined"> arrow_forward_ios </i>');

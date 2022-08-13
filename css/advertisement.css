@@ -1,58 +1,34 @@
-.container {
+.advertisement {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
-    background-color: rgb(108, 131, 24);
-}
-
-.owl-prev, .owl-next {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block !important;
-    border:0px solid black;
-}
-
-.owl-carousel .owl-prev.disabled,
-.owl-carousel .owl-next.disabled {
-    pointer-events: none;
-    opacity: 0.2;
-}
-
-.owl-carousel .prev-slide {
-    background: url(nav-icon.png) no-repeat scroll 0 0;
-    left: -33px;
-}
-
-.owl-carousel .next-slide {
-    background: url(nav-icon.png) no-repeat scroll -24px 0px;
-    right: -33px;
-}
-
-.owl-carousel .prev-slide:hover {
-    background-position: 0px -53px;
-}
-
-.owl-carousel .next-slide:hover {
-    background-position: -24px -53px;
+    margin: 10px;
+    padding: 0 24px 0 24px;
 }
 
 /* ========================= */
+/* .box {
+    display: flex;
+    margin: 0 -5px;
+  }
+  .item {
+    flex: 1 1 auto;
+    margin: 0 5px; */
+
 
 .svg-gold-container {
     display: flex;
+    margin: 10px -5px;
     flex-direction: column;
-    padding-left: 24px;
-    padding-right: 24px;
+
     vertical-align: middle;
-    align-content:space-between;
-    flex-basis:auto;
+    align-content: space-between;
+    flex-basis: auto;
 }
 
 .svg-gold-card {
+    flex: 1 1 auto;
+    margin: 0 5px;
     box-sizing: border-box;
     display: block;
     border: 1px solid rgb(236, 236, 236);
@@ -61,35 +37,168 @@
     min-height: 202px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .svg-gold-container {
         flex-direction: row;
-        align-content:space-between;
+        align-content: space-between;
+
     }
+
     .svg-gold-card {
         min-width: 150px;
-        margin-left: 10px;
-        margin-right: 10px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
     }
 }
 
-.text-with-svg-gold h5{
-    color:var(--h3-text-color);
+.text-with-svg-gold h5 {
+    color: var(--h3-text-color);
     font-size: 23px;
     font-weight: 500;
 }
 
-.card-title .point {
-    color: var(--h2-text-color);
-}
-
-.text-with-svg-gold p{
-    color:var(--h3-text-color);
+.text-with-svg-gold p {
+    color: var(--h3-text-color);
     font-size: 14px;
     font-weight: 500;
 }
 
-.owl-prev { left: -20px; }
-.owl-next { right: -20px; }
-.owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;}
+/* .box {
+    display: flex;
+    margin: 0 -5px;
+  }
+  .item {
+    flex: 1 1 auto;
+    margin: 0 5px;} */
+
+.adv-img-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adv-img-container div h2 {
+    color: var(--h2-text-color);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.black-drums {
+    min-width: 272px;
+    height: 340px;
+    padding: 40px;
+    margin: 15px 0;
+    background: url(../img/advertisement/drums-black.png) no-repeat center center scroll;
+    background-size: cover;
+    /* object-fit: cover; */
+    text-align: center;
+    vertical-align: baseline;
+
+}
+
+.black-drums h3 {
+    color: var(--text-color-background);
+    font-size: 34px;
+    font-weight: 600;
+    padding-top: 10px ;
+    padding-bottom: 25px;
+}
+
+.black-drums p {
+    color: var(--text-color-background);
+    font-size: 16px;
+    font-weight: 400;
+    margin:0;
+    padding: 0;
+}
+
+.strong-white {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.black-drums button {
+    padding: 10px 20px;
+    margin: 40px;
+    color: var(--text-color-background);
+    background-color: var(--h2-text-color);
+    border: 0;
+    border-radius: 5px;
+}
+.black-drums button:hover{
+    color: var(--h3-text-color);
+    background-color: var(--text-color-background);
+}
+
+
+
+.red-guitar-15 {
+    margin: 15px 0;
+    padding-left: 15px;
+    padding-right: 100px;
+}
+
+.red-guitar-15 h3 {
+    color: var(--h3-text-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.red-guitar-15 {
+    background: url(../img/advertisement/guitar-red-15.png) no-repeat right center scroll;
+    background-size: cover;
+    min-width: 272px;
+    height: 194px;
+}
+
+@media (min-width:768px) {
+    .adv-img-container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 -15px;
+
+    }
+
+    .black-drums {
+        width: 50%;
+    }
+
+    .black-drums,
+    .red-guitar-15 {
+        height: 360px;
+        flex: 1 1 auto;
+        margin: 0 15px;
+        min-width: 50%;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .red-guitar-15 {
+        background: url(../img/advertisement/guitar-red-15.png) no-repeat right center scroll;
+        background-size: cover;
+    }
+
+    /* .box {
+    display: flex;
+    margin: 0 -5px;
+  }
+  .item {
+    flex: 1 1 auto;
+    margin: 0 5px;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
