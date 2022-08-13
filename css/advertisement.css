@@ -3,21 +3,19 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    background-color: rgb(165, 204, 24);
+    background-color: rgb(108, 131, 24);
 }
 
-.item {
-    border: 1px solid red;
-    margin: auto;
-}
-
-.owl-carousel .nav-btn {
-    height: 47px;
+.owl-prev, .owl-next {
+    width: 15px;
+    height: 100px;
     position: absolute;
-    width: 26px;
-    cursor: pointer;
-    top: 100px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
 }
+<<<<<<< HEAD
 
 .owl-carousel .owl-prev.disabled,
 .owl-carousel .owl-next.disabled {
@@ -91,3 +89,8 @@
     font-size: 14px;
     font-weight: 500;
 }
+=======
+.owl-prev { left: -20px; }
+.owl-next { right: -20px; }
+.owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;}
+>>>>>>> fa3bf3152ab0ebb7bb3a91473cfabcfd9129d2b4

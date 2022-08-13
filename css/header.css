@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
 }    
-.container__header {
+.container__header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 }
@@ -13,30 +14,23 @@
     .navbar__nav {
         display: flex;
         gap: 20px;
+        
     }
 }
 
 
 
 
-.header {
-}
-.header__container {
-    
-}
-.container__subheader {
-    
-}
 .subheader__title {
     color: var(--text-color);
 }
-.subheader__contacts {
-}
+
 .subheader__email {
     color: var(--text-color);
 }
 .subheader__phone {
     color: var(--text-color);
+    padding-left: 20px;
 }
 
 .header__logo .logo-icon {
@@ -44,34 +38,42 @@
 }
 .container__header {
     background-color: var(--h2-text-color);
-    min-height: 70px;
-    align-items: center;
+    min-height: 56px;
+    
 }
-.navbar__nav {
-}
-.nav__item {
-}
+
 .nav__link {
     color: var(--text-color-background);
     font-size: 14px;
     font-weight: 700;
+}
 
-}
-.header__social {
-    
-    
-}
 .header__social [class*="icon__"] {
     width: 25px;
 }
-.icon__facebook {
-}
-.icon__instagram {
-}
-.icon__youtube {
-}
 .container__banner {
     background-image: url(../img/header/header-banner.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    
+}
+.container__content {
+    width: 1200px;
+    padding: 100px 0px 0px 15px;
+    
+    
+}
+@media (min-width: 768px) {
+    .container__content {
+    width: 630px;    
+    }
+    
+}
+.container__content hr {
+    color: var(--h2-text-color);
+    height: 2px;
+    width: 11%;
 }
 .banner__title {
     color: var(--h2-text-color);
@@ -85,13 +87,16 @@
     font-size: 54px;
     font-weight: 600;
     line-height: 64.8px;
-    width: 575px;
+}
+.banner__subtitle span {
+    color: var(--h2-text-color);
 }
 .banner__text {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 23.0411px;
+    padding-bottom: 40px;
 }
 .banner__text span {
     color: var(--text-color-price);
@@ -100,5 +105,12 @@
     line-height: 28.888px;
 }
 .banner__button {
+    background-color: var(--h2-text-color);
+    padding: 15px 30px;
+    color: var(--text-color-background);
+    font-size: 15.4px;
+    font-weight: 600;
+    line-height: 15.4px;
+    border-radius: 5px;
 }
 
