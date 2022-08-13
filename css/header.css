@@ -1,3 +1,7 @@
+.contacts__container {
+    min-height: 42px;
+    align-items: center;
+}
 @media (min-width: 992px) {
     .contacts__container {
     display: flex;
@@ -7,9 +11,16 @@
 }
 .contacts__title h5 {
     color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.999px;
 }
 .contacts__info a {
     color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.999px;
+
 }
 .contacts__info a:first-child {
     padding-right: 20px;
@@ -23,22 +34,39 @@
 @media (min-width: 1169px) {
     .navigation__container {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      /* justify-content: space-between;
+      align-items: center; */
     }
 }
-.navigation {
+@media (min-width: 1169px) {
+   .navigation {
+    display: flex;
+    align-items: center;
+} 
 }
+
 .navigation__logo img {
-    width: 157px;
+    max-width: 157px;
 }
-.navigation-wrapper {
-    
+@media (min-width: 1169px) {
+  .navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
+}
+
 .navigation__menu {
 }
-.menu__list {
+@media (min-width: 1169px) {
+   .menu__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    max-width: 645px;
+    } 
 }
+
 .menu__item {
 }
 .menu__link {
@@ -46,8 +74,12 @@
   font-size: 14px;
   font-weight: 700;
 }
+.navigation__social {
+    min-width: 200px;
+    justify-content: space-around;
+}
 .navigation__social [class*='icon__'] {
-    width: 25px;
+    max-width: 25px;
 }
 .icon__facebook {
 }
