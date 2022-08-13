@@ -1,74 +1,18 @@
 $('.owl-carousel').owlCarousel({
-    loop: true,
-    dots: false,
     margin: 10,
-    stagePadding: 50,
-    responsiveClass: true,
+    nav: true,
+    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
     responsive: {
         0: {
-            items: 1,
-            nav: true
+            items: 1
         },
-        768: {
-            items: 2,
-            // nav:false
-        },
-        992: {
-            items: 3,
-            // nav:false
+        600: {
+            items: 3
         },
         1000: {
-            items: 6,
-            // nav:true,
-            loop: false
-        },
-        nav: true,
-        navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            items: 5
+        }
     }
 });
-
-
-// $('.owl-carousel').owlCarousel({
-//     loop: true,
-//     margin: 10,
-//     stagePadding: 30,
-//     nav: true,
-//     dots: false,
-//     responsiveClass: true,
-//     responsive: {
-//         0: {
-//             items: 1,
-//             nav: true
-//         },
-//         768: {
-//             items: 2,
-//             // nav:false
-//         },
-//         992: {
-//             items: 3,
-//             // nav:false
-//         },
-//         1000: {
-//             items: 6,
-//             // nav:true,
-//             loop: false
-//         }
-//     },
-
-
-//     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
-
-    // navText: [
-    //     '<span class="arrow-owl arrow-left"></span>',
-    //     '<span class="arrow-owl arrow-right"></span>'
-    //   ],
-
-
-
-// $(".next_button").click(function () {
-//     owl.trigger("next.owl.carousel");
-// });
-
-// $(".prev_button").click(function () {
-//     owl.trigger("prev.owl.carousel");
-// });
+$(".owl-next").html('<i class="material-symbols-outlined"> arrow_back_ios </i>');
+$(".owl-prev").html('<i class="material-symbols-outlined"> arrow_forward_ios </i>');
