@@ -139,7 +139,7 @@
   padding-bottom: 40px;
 }
 .banner__text span {
-    color: var(--text-color-price);
+    color: var(--price-text-color);
     font-size: 20px;
     font-weight: 700;
     line-height: 28.888px;
