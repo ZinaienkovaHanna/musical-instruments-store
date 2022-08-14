@@ -4,28 +4,27 @@
     justify-content: center;
     /* margin: 10px; */
     padding: 0 15px;
-}
-/* ========================= */
-/* .box {
-    display: flex;
-    margin: 0 -5px;
   }
-  .item {
-    flex: 1 1 auto;
-    margin: 0 5px; */
-
-
-.svg-gold-container {
+  /* ========================= */
+  /* .box {
+      display: flex;
+      margin: 0 -5px;
+    }
+    .item {
+      flex: 1 1 auto;
+      margin: 0 5px; */
+  
+  .svg-gold-container {
     display: flex;
     margin: 10px -5px;
     flex-direction: column;
-
+  
     vertical-align: middle;
     align-content: space-between;
     flex-basis: auto;
-}
-
-.svg-gold-card {
+  }
+  
+  .svg-gold-card {
     flex: 1 1 auto;
     margin: 0 5px;
     box-sizing: border-box;
@@ -34,171 +33,153 @@
     min-width: 272px;
     width: 100%;
     min-height: 202px;
-}
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
     .svg-gold-container {
-        flex-direction: row;
-        align-content: space-between;
-
+      flex-direction: row;
+      align-content: space-between;
     }
-
+  
     .svg-gold-card {
-        min-width: 150px;
-        /* padding-left: 15px;
-        padding-right: 15px; */
+      min-width: 150px;
+      /* padding-left: 15px;
+          padding-right: 15px; */
     }
-}
-
-.text-with-svg-gold h5 {
+  }
+  
+  .text-with-svg-gold h5 {
     color: var(--h3-text-color);
     font-size: 23px;
     font-weight: 500;
-}
-
-.text-with-svg-gold p {
+  }
+  
+  .text-with-svg-gold p {
     color: var(--h3-text-color);
     font-size: 14px;
     font-weight: 500;
-}
-
-/* .box {
-    display: flex;
-    margin: 0 -5px;
   }
-  .item {
-    flex: 1 1 auto;
-    margin: 0 5px;} */
-
-.adv-img-container {
+  
+  /* .box {
+      display: flex;
+      margin: 0 -5px;
+    }
+    .item {
+      flex: 1 1 auto;
+      margin: 0 5px;} */
+  
+  .adv-img-container {
     display: flex;
     flex-direction: column;
-
-}
-
-.adv-img-container div h2 {
+  }
+  
+  .adv-img-container div h2 {
     color: var(--h2-text-color);
     font-size: 12px;
     font-weight: 600;
-}
-
-.black-drums {
+  }
+  
+  .black-drums {
     min-width: 272px;
     height: 340px;
     padding: 40px;
     margin: 15px 0;
-    background: url(../img/advertisement/drums-black.png) no-repeat center center scroll;
+    background: url(../img/advertisement/drums-black.png) no-repeat center center
+      scroll;
     background-size: cover;
     /* object-fit: cover; */
     text-align: center;
     vertical-align: baseline;
-
-}
-
-.black-drums h3 {
+  }
+  
+  .black-drums h3 {
     color: var(--text-color-background);
     font-size: 34px;
     font-weight: 600;
-    padding-top: 10px ;
+    padding-top: 10px;
     padding-bottom: 25px;
-}
-
-.black-drums p {
+  }
+  
+  .black-drums p {
     color: var(--text-color-background);
     font-size: 16px;
     font-weight: 400;
-    margin:0;
+    margin: 0;
     padding: 0;
-}
-
-.strong-white {
+  }
+  
+  .strong-white {
     font-size: 16px;
     font-weight: 700;
-}
-
-.black-drums button {
+  }
+  
+  .black-drums button {
     padding: 10px 20px;
     margin: 40px;
     color: var(--text-color-background);
     background-color: var(--h2-text-color);
     border: 0;
     border-radius: 5px;
-}
-.black-drums button:hover{
+  }
+  .black-drums button:hover {
     color: var(--h3-text-color);
     background-color: var(--text-color-background);
-}
-
-
-
-.red-guitar-15 {
+  }
+  
+  .red-guitar-15 {
     margin: 15px 0;
     padding-left: 15px;
     padding-right: 100px;
-}
-
-.red-guitar-15 h3 {
+  }
+  
+  .red-guitar-15 h3 {
     color: var(--h3-text-color);
     font-size: 40px;
     font-weight: 600;
-}
-
-.red-guitar-15 {
-    background: url(../img/advertisement/guitar-red-15.png) no-repeat right center scroll;
+  }
+  
+  .red-guitar-15 {
+    background: url(../img/advertisement/guitar-red-15.png) no-repeat right center
+      scroll;
     background-size: cover;
     min-width: 272px;
     height: 194px;
-}
-
-@media (min-width:768px) {
+  }
+  
+  @media (min-width: 768px) {
     .adv-img-container {
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 -15px;
-
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 -15px;
     }
-
+  
     .black-drums {
-        width: 50%;
+      width: 50%;
     }
-
+  
     .black-drums,
     .red-guitar-15 {
-        height: 360px;
-        flex: 1 1 auto;
-        margin: 0 15px;
-        min-width: 50%;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-
+      height: 360px;
+      flex: 1 1 auto;
+      margin: 0 15px;
+      min-width: 50%;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
     }
-
+  
     .red-guitar-15 {
-        background: url(../img/advertisement/guitar-red-15.png) no-repeat right center scroll;
-        background-size: cover;
+      background: url(../img/advertisement/guitar-red-15.png) no-repeat right
+        center scroll;
+      background-size: cover;
     }
-}
-
-    /* .box {
-    display: flex;
-    margin: 0 -5px;
   }
-  .item {
-    flex: 1 1 auto;
-    margin: 0 5px;} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  /* .box {
+      display: flex;
+      margin: 0 -5px;
+    }
+    .item {
+      flex: 1 1 auto;
+      margin: 0 5px;} */
+  
