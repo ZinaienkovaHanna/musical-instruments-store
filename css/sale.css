@@ -7,8 +7,7 @@
 }
 
 .mega-sale-container {
-    background: url(../img/sale/sticks.png);
-    no-repeat right center scroll;
+    background: url(../img/sale/sticks.png) no-repeat right center scroll;
     background-size: cover;
     min-width: 272px;
     height: 330px;
@@ -17,8 +16,7 @@
 }
 
 .best-selling-conteiner {
-    background: url(../img/sale/coal-guitar-on-brown.png);
-    no-repeat right center scroll;
+    background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
     background-size: cover;
     min-width: 272px;
     height: 194px;
