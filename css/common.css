@@ -11,6 +11,9 @@
   width: 100%;
   margin: auto;
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
