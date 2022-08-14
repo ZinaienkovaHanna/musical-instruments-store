@@ -1,18 +1,24 @@
-$('.owl-carousel').owlCarousel({
-    margin: 10,
+$(".main-content .owl-carousel").owlCarousel({
+    loop: true,
+    margin: 20,
     nav: true,
-    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+    dots: false,
+    stagePadding: 0,
+    navText: [
+      '<i class="iii material-symbols-outlined"> arrow_back_ios_new </i>',
+      '<i class="iii material-symbols-outlined"> arrow_forward_ios </i>',
+    ],
+    navContainer: ".main-content .custom-nav",
     responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 3
-        },
-        1000: {
-            items: 5
-        }
-    }
-});
-$(".owl-next").html('<i class="material-symbols-outlined" style="color: red"> arrow_back_ios </i>');
-$(".owl-prev").html('<i class="material-symbols-outlined"> arrow_forward_ios </i>');
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 6,
+      },
+    },
+  });
+  
