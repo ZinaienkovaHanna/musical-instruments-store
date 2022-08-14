@@ -1,11 +1,55 @@
 .sale__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     /* margin: 10px; */
     padding: 0 15px;
-  }
+}
 
- .mega-sale-container{
-    
- } 
+.mega-sale-container {
+    background: url(../img/sale/sticks.png);
+    no-repeat right center scroll;
+    background-size: cover;
+    min-width: 272px;
+    height: 330px;
+
+    padding: 40px;
+}
+
+.best-selling-conteiner {
+    background: url(../img/sale/coal-guitar-on-brown.png);
+    no-repeat right center scroll;
+    background-size: cover;
+    min-width: 272px;
+    height: 194px;
+}
+
+h2 {
+    color: #777;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #242424;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.best-selling-conteiner p:first-child {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.green-impression {
+    color: rgb(102, 153, 4);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.best-selling-conteiner p:last-child {
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
