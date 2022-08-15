@@ -1,8 +1,18 @@
+ /* .box {
+      display: flex;
+      margin: 0 -5px;
+    }
+    .item {
+      flex: 1 1 auto;
+      margin: 0 5px;} */
+
+
 .sale__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* margin: 10px; */ 
+    margin: 0 -5px;
     padding: 0 15px;
   
 
@@ -27,18 +37,20 @@
     .mega-sale-container{
         width: 40%;
         height: 320px;
+        flex: 1 1 auto;
+      margin: 0 5px;
     }
     
 }
 
-h2 {
+.mega-sale-container h2 {
     color: #777;
     font-size: 12px;
     font-weight: 600;
     /* font-family: 'Work Sans', sans-serif; */
 }
 
-h3 {
+.mega-sale-container h3 {
     color: #242424;
     font-size: 34px;
     font-weight: 600;
@@ -54,7 +66,7 @@ h3 {
 }
 
 .green-impression {
-    color: rgb(102, 153, 4);
+    color: rgb(102, 153, 4); 
     font-size: 14px;
     font-weight: 700;
 }
@@ -71,15 +83,39 @@ h3 {
     .best-selling-conteiner {
         background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
         background-size: cover;
+        padding: 30px;
         min-width: 272px;
         height: 330px;
     }
 
     @media (min-width: 770px) {
         .best-selling-conteiner{
-            width: 60%;
+            flex: 1 1 auto;
+      margin: 0 5px;
+      width: 60%;
             height: 320px;
         }
         
     }
+    
+    .best-selling-conteiner h2{
+        color: var(--text-color-background);
+        font-size: 12px;
+        font-weight: 600;
+    
+    }
+    
+    .best-selling-conteiner h3{
+        color: var(--text-color-background);
+        font-size: 34px;
+        font-weight: 600;
+    
+    }
+
+    .best-selling-conteiner p{
+        color: (--point-color);
+        font-size: 22px;
+        font-weight: 700;
+    }
+
     
