@@ -50,25 +50,39 @@ header .contacts__container {
     width: 65%;
 }
 }
-@media (min-width: 1169px) {
+.navigation__menu {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ height: auto;
+}
+
+@media (min-width: 992px) {
    .navigation__menu {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     gap: 40px;
-    align-items: center;
     max-width: 645px;
     } 
+  }
+.navigation__social {
+    position: relative;
+    max-width: 100px;
+    align-items: center;
+    margin: auto;
+}
+@media (min-width: 992px) {
+  .navigation__social {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .menu__link {
   color: var(--text-color-background);
   font-size: 14px;
   font-weight: 700;
-}
-.navigation__social {
-    min-width: 90px;
-}
-.navigation__social [class*='icon__'] {
-    max-width: 25px;
 }
 .container__background-image {
   background-image: url(../img/header/header-banner.jpg);
