@@ -19,6 +19,7 @@
   scroll-behavior: smooth;
   
   --text-color-grey-dark: rgb(36, 36, 36);
+  --text-color-grey-dark-054: rgba(36, 36, 36, 0.54);
   --text-color-grey-light: rgb(119, 119, 119);
   --text-color-white: rgb(255, 255, 255);
   --text-color-white-077: rgba(255, 255, 255, 0.77);
