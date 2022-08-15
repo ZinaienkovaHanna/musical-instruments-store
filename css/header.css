@@ -47,7 +47,7 @@ header .contacts__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 55%;
 }
 }
 .navigation__menu {
@@ -62,8 +62,8 @@ header .contacts__container {
 @media (min-width: 992px) {
    .navigation__menu {
     flex-direction: row;
-    gap: 40px;
-    max-width: 645px;
+    gap: 25px;
+    /* max-width: 645px; */
     } 
   }
 .navigation__social {
@@ -71,6 +71,7 @@ header .contacts__container {
     max-width: 100px;
     align-items: center;
     margin: auto;
+    
 }
 @media (min-width: 992px) {
   .navigation__social {
