@@ -17,7 +17,15 @@
   --special-offer-p-text-color: rgba(255, 255, 255, 0.77);
   --promotion-text-color: rgba(255, 255, 255, 0.55);
   
-  
+  --text-color-grey-dark: rgb(36, 36, 36);
+  --text-color-grey-light: rgb(119, 119, 119);
+  --text-color-white: rgb(255, 255, 255);
+  --text-color-white-077: rgba(255, 255, 255, 0.77);
+  --text-color-white-055: rgba(255, 255, 255, 0.55);
+  --text-color-gold: rgb(248, 184, 3);
+  --text-color-green: rgb(102, 153, 4);
+
+
 }
 
 .material-symbols-outlined {

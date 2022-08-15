@@ -7,115 +7,138 @@
       margin: 0 5px;} */
 
 
-.sale__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* margin: 10px; */ 
-    margin: 0 -5px;
-    padding: 0 15px;
-  
+ .sale__container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     /* margin: 10px; */
+     margin: 0 -5px;
+     padding: 0 15px;
 
-}
 
-@media (min-width: 770px) {
-    .sale__container{
-        flex-direction: row;
-    }
-    
-}
+ }
 
-.mega-sale-container {
-    background: url(../img/sale/sticks.png) no-repeat left top scroll;
-    background-size: cover;
-    min-width: 272px;
-    height: 330px;
-    padding: 30px;
-}
+ @media (min-width: 770px) {
+     .sale__container {
+         flex-direction: row;
+     }
 
-@media (min-width:770px) {
-    .mega-sale-container{
-        width: 40%;
-        height: 320px;
-        flex: 1 1 auto;
-      margin: 0 5px;
-    }
-    
-}
+ }
 
-.mega-sale-container h2 {
-    color: #777;
-    font-size: 12px;
-    font-weight: 600;
-    /* font-family: 'Work Sans', sans-serif; */
-}
+ .mega-sale-container {
+     background: url(../img/sale/sticks.png) no-repeat left top scroll;
+     background-size: cover;
+     min-width: 272px;
+     height: 330px;
+     padding: 30px;
+ }
 
-.mega-sale-container h3 {
-    color: #242424;
-    font-size: 34px;
-    font-weight: 600;
-    padding-top: 25px;
-}
+ @media (min-width:770px) {
+     .mega-sale-container {
+         width: 40%;
+         height: 320px;
+         flex: 1 1 auto;
+         margin: 0 5px;
+     }
 
-.mega-sale-container .msc-p1 {
-    color: #242424;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 15px;
-    margin-bottom: 0;
-}
+ }
 
-.green-impression {
-    color: rgb(102, 153, 4); 
-    font-size: 14px;
-    font-weight: 700;
-}
+ .mega-sale-container h2 {
+     color: #777;
+     font-size: 12px;
+     font-weight: 600;
+     /* font-family: 'Work Sans', sans-serif; */
+ }
 
-.mega-sale-container .msc-p2 {
-    color: #777;
-    font-size: 16px;
-    font-weight: 400;
-    padding-top: 0;
-    padding-bottom: 0;
-}
- 
+ .mega-sale-container h3 {
+     color: #242424;
+     font-size: 34px;
+     font-weight: 600;
+     padding-top: 25px;
+ }
 
-    .best-selling-conteiner {
-        background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
-        background-size: cover;
-        padding: 30px;
-        min-width: 272px;
-        height: 330px;
-    }
+ .mega-sale-container .msc-p1 {
+     color: #242424;
+     font-size: 14px;
+     font-weight: 500;
+     margin-top: 15px;
+     margin-bottom: 0;
+ }
 
-    @media (min-width: 770px) {
-        .best-selling-conteiner{
-            flex: 1 1 auto;
-      margin: 0 5px;
-      width: 60%;
-            height: 320px;
-        }
-        
-    }
-    
-    .best-selling-conteiner h2{
-        color: var(--text-color-background);
-        font-size: 12px;
-        font-weight: 600;
-    
-    }
-    
-    .best-selling-conteiner h3{
-        color: var(--text-color-background);
-        font-size: 34px;
-        font-weight: 600;
-    
-    }
+ .green-impression {
+     color: rgb(102, 153, 4);
+     font-size: 14px;
+     font-weight: 700;
+ }
 
-    .best-selling-conteiner p{
-        color: (--point-color);
-        font-size: 22px;
-        font-weight: 700;
-    }
+ .mega-sale-container .msc-p2 {
+     color: #777;
+     font-size: 16px;
+     font-weight: 400;
+     padding-top: 0;
+     padding-bottom: 0;
+ }
 
-    
+
+ .best-selling-conteiner {
+     background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
+     background-size: cover;
+     padding: 30px;
+     min-width: 272px;
+     height: 330px;
+ }
+
+ @media (min-width: 770px) {
+     .best-selling-conteiner {
+         flex: 1 1 auto;
+         margin: 0 5px;
+         width: 60%;
+         height: 320px;
+     }
+
+ }
+
+ .best-selling-conteiner h2 {
+     color: var(--text-color-background);
+     font-size: 12px;
+     font-weight: 600;
+
+ }
+
+ .best-selling-conteiner h3 {
+     color: var(--text-color-background);
+     font-size: 34px;
+     font-weight: 600;
+
+ }
+
+ .best-selling-conteiner p {
+     margin-top: 20px;
+     margin-bottom: 40px;
+ }
+
+ .martin-price {
+     color: var(--text-color-gold);
+     font-size: 22px;
+     font-weight: 700;
+
+ }
+
+ .martin-crossed-out {
+     color: var(--text-color-white-055);
+     font-size: 19px;
+     font-weight: 500;
+     text-decoration: line-through;
+ }
+
+ .best-selling-conteiner a {
+     color: var(--text-color-grey-dark);
+     background-color: var(--text-color-white);
+     font-size: 14px;
+     font-weight: 600;
+ }
+
+ .best-selling-conteiner a:hover {
+     color: var(--text-color-white);
+     background-color: var(--text-color-gold);
+ }
