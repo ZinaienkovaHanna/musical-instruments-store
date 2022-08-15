@@ -208,7 +208,21 @@
         <h3 class="msc-h3">Mega Sale Day<span <span class="point">.</span></h3>
         <p class="msc-p1">Starting from <span class="green-impression">$139.99</span></p>
         <p class="msc-p2">Shop now or regret later.</p>
-        <p class="msc-p3">Tут має бути зворотній відлік</p>
+        <div class="msc-card text-center "> <!-- Tут має бути зворотній відлік -->
+          <div class="card-body">
+            <p class="remain-how-much " id="days"></p>
+            <p class="remain-what">days</p>
+          </div><div class="card-body">
+            <p class="remain-how-much border-start" id="hours"></p>
+            <p class="remain-what">hours</p>
+          </div><div class="card-body">
+            <p class="remain-how-much border-start" id="minutes"></p>
+            <p class="remain-what">minutes</p>
+          </div><div class="card-body">
+            <p class="remain-how-much border-start" id="seconds"></p>
+            <p class="remain-what">seconds</p>
+          </div>
+        </div>
       </div>
       <div class="best-selling-conteiner">
         <h2 class="bsc-h2">BEST-SELLING </h2>
@@ -269,6 +283,8 @@
     crossorigin="anonymous"></script>
 
   <script src="js/js-carousel-adv.js"></script>
+  <script src="js/countdown-timer.js"></script>
+  
 </body>
 
 </html>
