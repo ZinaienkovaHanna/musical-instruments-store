@@ -2,42 +2,55 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin: 10px; */
+    /* margin: 10px; */ 
     padding: 0 15px;
+  
+
+}
+
+@media (min-width: 770px) {
+    .sale__container{
+        flex-direction: row;
+    }
+    
 }
 
 .mega-sale-container {
-    background: url(../img/sale/sticks.png) no-repeat right center scroll;
+    background: url(../img/sale/sticks.png) no-repeat left top scroll;
     background-size: cover;
     min-width: 272px;
     height: 330px;
-
-    padding: 40px;
+    padding: 30px;
 }
 
-.best-selling-conteiner {
-    background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
-    background-size: cover;
-    min-width: 272px;
-    height: 194px;
+@media (min-width:770px) {
+    .mega-sale-container{
+        width: 40%;
+        height: 320px;
+    }
+    
 }
 
 h2 {
     color: #777;
     font-size: 12px;
     font-weight: 600;
+    /* font-family: 'Work Sans', sans-serif; */
 }
 
 h3 {
     color: #242424;
     font-size: 34px;
     font-weight: 600;
+    padding-top: 25px;
 }
 
-.best-selling-conteiner p:first-child {
+.mega-sale-container .msc-p1 {
     color: #242424;
     font-size: 14px;
     font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 .green-impression {
@@ -46,8 +59,27 @@ h3 {
     font-weight: 700;
 }
 
-.best-selling-conteiner p:last-child {
+.mega-sale-container .msc-p2 {
     color: #777;
     font-size: 16px;
     font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+ 
+
+    .best-selling-conteiner {
+        background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
+        background-size: cover;
+        min-width: 272px;
+        height: 330px;
+    }
+
+    @media (min-width: 770px) {
+        .best-selling-conteiner{
+            width: 60%;
+            height: 320px;
+        }
+        
+    }
+    

@@ -4,20 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul,
-ol,
-li {
-  list-style: none;
+  font-family: 'Work Sans', sans-serif;
 }
 
 :root {
-  font-family: 'Work Sans', sans-serif;
   --text-color: rgb(119, 119, 119);
   --text-color-background: rgb(255, 255, 255);
   --h2-text-color: rgb(248, 184, 3);
@@ -26,8 +16,8 @@ li {
   --point-color: #f8b803;
   --special-offer-p-text-color: rgba(255, 255, 255, 0.77);
   --promotion-text-color: rgba(255, 255, 255, 0.55);
-
-
+  
+  
 }
 
 .material-symbols-outlined {
@@ -37,6 +27,16 @@ li {
     'GRAD' 0,
     'opsz' 48
 }
+
+a {
+  text-decoration: none;
+}  
+
+ul,
+ol,
+li {
+  list-style: none;
+}  
 
 .span__dot {
   color: var(--h2-text-color);
