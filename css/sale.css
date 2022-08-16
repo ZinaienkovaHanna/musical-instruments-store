@@ -6,14 +6,17 @@
       flex: 1 1 auto;
       margin: 0 5px;} */
 
+ * {
+     border: 1px solid red;
+ }
 
  .sale__container {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      /* margin: 10px; */
-     margin: 0 -5px;
-     padding: 0 15px;
+     /* margin: 0 -5px; */
+     padding: 0 5px;
 
 
  }
@@ -30,15 +33,16 @@
      background-size: cover;
      min-width: 272px;
      height: 330px;
-     padding: 30px;
+     padding-top: 30px;
+     margin: 7px;
  }
 
  @media (min-width:770px) {
      .mega-sale-container {
          width: 40%;
          height: 320px;
-         flex: 1 1 auto;
-         margin: 0 5px;
+         /* flex: 1 1 auto;
+         margin: 0 5px; */
      }
 
  }
@@ -80,36 +84,38 @@
      margin-bottom: 5px;
  }
 
- .msc-card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+ .msc-card {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
  }
 
  .remain-how-much {
-    color: var(--text-color-grey-dark);
-    font-size: 36px;
-    font-weight: 600;
+     color: var(--text-color-grey-dark);
+     font-size: 3.5vw /* 36px */;
+     font-weight: 600;
  }
- .remain-what{
-    color: var(--text-color-grey-dark-054);
-    font-size: 14px;
-    font-weight: 600;
+
+ .remain-what {
+     color: var(--text-color-grey-dark-054);
+     font-size: 1.3vw/* 14px */;
+     font-weight: 600;
  }
 
  .best-selling-conteiner {
-     background: url(../img/sale/coal-guitar-on-brown.png) no-repeat right center scroll;
+     background: url(../img/sale/guitar-coal-on-brown.png) no-repeat right center scroll;
      background-size: cover;
      padding: 30px;
+     margin: 7px;
      min-width: 272px;
      height: 330px;
  }
 
  @media (min-width: 770px) {
      .best-selling-conteiner {
-         flex: 1 1 auto;
-         margin: 0 5px;
-         width: 60%;
+         /* flex: 1 1 auto;
+         margin: 0 5px; */
+         width:60%;
          height: 320px;
      }
 
