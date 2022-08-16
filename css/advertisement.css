@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     /* margin: 10px; */
-    padding: 0 15px;
+    /* padding: 0 5px; */
   }
   /* ========================= */
   /* .box {
@@ -16,7 +16,7 @@
   
   .svg-gold-container {
     display: flex;
-    margin: 10px -5px;
+    margin: 10px 5px;
     flex-direction: column;
   
     vertical-align: middle;
@@ -25,7 +25,7 @@
   }
   
   .svg-gold-card {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
     margin: 0 5px;
     box-sizing: border-box;
     display: block;
@@ -35,7 +35,7 @@
     min-height: 202px;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 770px) {
     .svg-gold-container {
       flex-direction: row;
       align-content: space-between;
@@ -67,10 +67,14 @@
     .item {
       flex: 1 1 auto;
       margin: 0 5px;} */
-  
+/* =========================================   */
   .adv-img-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+     /* margin: 10px; */
+     /* margin: 0 -5px; */
+     /* padding: 0 5px; */
   }
   
   .adv-img-container div h2 {
@@ -83,7 +87,7 @@
     min-width: 272px;
     height: 340px;
     padding: 40px;
-    margin: 15px 0;
+    margin: 15px 7px;
     background: url(../img/advertisement/drums-black.png) no-repeat center center
       scroll;
     background-size: cover;
@@ -115,7 +119,7 @@
   
   .black-drums button {
     padding: 10px 20px;
-    margin: 40px;
+    margin-top: 20px;
     color: var(--text-color-background);
     background-color: var(--h2-text-color);
     border: 0;
@@ -127,14 +131,15 @@
   }
   
   .red-guitar-15 {
-    margin: 15px 0;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 100px;
+    vertical-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 15px 7px
   }
   
   .red-guitar-15 h3 {
     color: var(--h3-text-color);
+    padding-top: 20px;
     font-size: 40px;
     font-weight: 600;
   }
@@ -147,11 +152,11 @@
     height: 194px;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 770px) {
     .adv-img-container {
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 -15px;
+      /* margin: 0 -15px; */
     }
   
     .black-drums {
@@ -162,16 +167,17 @@
     .red-guitar-15 {
       height: 360px;
       flex: 1 1 auto;
-      margin: 0 15px;
-      min-width: 50%;
+      /* margin: 0 15px; */
+      width: 50%;
       align-items: center;
       justify-content: center;
       align-items: center;
     }
   
     .red-guitar-15 {
-      background: url(../img/advertisement/guitar-red-15.png) no-repeat right
-        center scroll;
+      padding-top: 100px;
+      background: url(../img/advertisement/guitar-red-15.png) no-repeat 68.3% 62.5%
+      scroll;
       background-size: cover;
     }
   }
