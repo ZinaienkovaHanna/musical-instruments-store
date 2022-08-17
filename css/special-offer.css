@@ -156,6 +156,7 @@
     font-size: 17px;
     font-weight: 700;
 }
+
 .special-rate__container .btn {
     color: var(--text-color-background);
     background-color: var(--text-color-grey-dark);
@@ -165,6 +166,7 @@
     font-weight: 600;
     text-transform: capitalize;
 }
+
 .special-rate__container .btn:hover {
     color: var(--text-color-grey-dark);
     background-color: var(--text-color-background);

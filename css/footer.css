@@ -3,3 +3,13 @@
     margin: 0 auto;
     background-color: var(--text-color-grey-dark);
 }
+
+.info__text {
+    color: var(--info-text-color);
+}
+
+hr {
+    background-color: var(--text-color-background);
+    width: 50%;
+    margin: auto;
+}

@@ -17,6 +17,7 @@
   --point-color: rgb(248, 184, 3);
   --special-offer-p-text-color: rgba(255, 255, 255, 0.77);
   --promotion-text-color: rgba(255, 255, 255, 0.55);
+  --info-text-color: #757575;
   scroll-behavior: smooth;
   
   --text-color-grey-dark: rgb(36, 36, 36);
