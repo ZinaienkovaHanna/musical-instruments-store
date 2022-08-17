@@ -1,0 +1,44 @@
+.three-card-item {
+    width:30%;
+}
+
+.three-cards-h3 {
+    color: var(--text-color-grey-dark);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.three-cards-separator {
+    height:2px;
+    width: 10vw;
+    background-color: var(--text-color-gold);
+    margin: 15px 0;
+}
+
+.three-cards-a {
+    color: var(--text-color-grey-light);
+    font-size: 16px;
+    font-weight: 400;
+    width: fit-content;
+}
+
+.three-cards-a:hover {
+    color: var(--text-color-grey-light);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.tci-1 {
+    background: url(../img/sale/guitar-dark-brown.png) no-repeat 79.7% 59.5% scroll;
+    background-size: cover;
+}
+
+.tci-2 {
+    background: url(../img/sale/tambourine-silver.png) no-repeat 84.2% 48.3% scroll;
+    background-size: cover;
+}
+
+.tci-3 {
+    background: url(../img/sale/violin-brown.png) no-repeat 68.3% 62.5% scroll;
+    background-size: cover;
+}
