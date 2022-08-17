@@ -1,0 +1,5 @@
+.footer__container {
+    padding: 40px 20px;
+    margin: 0 auto;
+    background-color: var(--text-color-grey-dark);
+}

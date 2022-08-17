@@ -132,3 +132,40 @@
     color: var(--text-color-background);
     border-color: var(--h2-text-color);
 }
+
+.special-rate__container {
+    padding: 40px 20px;
+    margin-top: 100px;
+    background-color: var(--point-color);
+}
+
+.special-rate__text h3 {
+    color: var(--text-color-background);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.special-rate__text p {
+    color: var(--text-color-white-077);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.percent {
+    color: var(--text-color-background);
+    font-size: 17px;
+    font-weight: 700;
+}
+.special-rate__container .btn {
+    color: var(--text-color-background);
+    background-color: var(--text-color-grey-dark);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.special-rate__container .btn:hover {
+    color: var(--text-color-grey-dark);
+    background-color: var(--text-color-background);
+}
