@@ -1,6 +1,7 @@
 .new-arrivals {
     margin: 0;
     padding: 0;
+    margin: 80px 0px;
 }
 .arrivals__content {
     text-align: center;
@@ -12,7 +13,6 @@
     line-height: 16.8px;
     text-transform: uppercase;
     padding-bottom: 20px;
-    margin-top: 60px;
 }
 .arrivals__subtitle {
     color: var(--h3-text-color);
@@ -36,7 +36,7 @@
     
 }
 .arrivals-product-image {
-    padding: 15px 0px;
+    padding: 15px 0px 45px 0px;
     margin: auto;
 }
 .arrivals-product-description {
@@ -74,3 +74,46 @@
 .arrivals-product__card {
     padding: 0px 15px;
 }
+.arrivals-products__carousel-button-prev {
+    position: relative;
+    padding: 16px 16px;
+    border: 3px solid var(--h3-text-color);
+    background-color: var(--h3-text-color);
+    border-radius: 50%;
+    /* margin-top: 340px;
+    margin-right: -30px; */
+}
+
+.arrivals-products__carousel-button-prev:after {
+    position: absolute;
+    top: 9px;;
+    left: 11px;
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-left: 3px solid var(--text-color-background);
+    border-bottom: 3px solid var(--text-color-background);
+    transform: rotate(45deg);
+  }
+  .arrivals-products__carousel-button-next {
+    position: relative;
+    padding: 16px 16px;
+    border: 3px solid var(--h3-text-color);
+    background-color: var(--h3-text-color);
+    border-radius: 50%;
+    /* margin-top: 340px;
+    margin-left: -30px; */
+}
+.arrivals-products__carousel-button-next:after {
+    position: absolute;
+    top: 9px;;
+    right: 11px;
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-right: 3px solid var(--text-color-background);
+    border-bottom: 3px solid var(--text-color-background);
+    transform: rotate(-45deg);
+  }
