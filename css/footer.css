@@ -7,9 +7,9 @@
 .info__text {
     color: var(--info-text-color);
 }
-
-hr {
+/* Додати перед hr свій клас, background-color робить цю риску білою і її не видно по всьому сайту */
+/* hr {
     background-color: var(--text-color-background);
     width: 50%;
     margin: auto;
-}
+} */
