@@ -54,5 +54,7 @@ li {
   color: var(--h2-text-color);
 }
 
-/* .button {
-} */
+img {
+  display: block;
+  width: 100%;
+}

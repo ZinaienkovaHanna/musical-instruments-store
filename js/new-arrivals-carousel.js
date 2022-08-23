@@ -38,6 +38,42 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.arrivals-products__carousel-slides');
         slideContainer.innerHTML = slides[currentSlideIndex];
+        if (window.innerWidth > 768) {
+          const secondSlideIndex = currentSlideIndex + 1 >= slides.length ? 0 : currentSlideIndex + 1;
+          slideContainer.innerHTML += slides[secondSlideIndex];
+          if (window.innerWidth > 992) {
+           const thirdSlideIndex = secondSlideIndex + 1 >= slides.length ? 0 : secondSlideIndex + 1;
+           slideContainer.innerHTML += slides[thirdSlideIndex];
+
+           const fourthSlideIndex = thirdSlideIndex + 1 >= slides.length ? 0 : thirdSlideIndex + 1;
+           slideContainer.innerHTML += slides[fourthSlideIndex];
+
+          } 
+        } 
+
     }
+
+    function prevSlide() {
+      currentSlideIndex = currentSlideIndex - 1 < 0 ? slides.length - 1 : currentSlideIndex - 1;
+      renderCarousel();
+    }
+
+    function nextSlide() {
+      currentSlideIndex = currentSlideIndex + 1 >= slides.length ? 0 : currentSlideIndex + 1;
+      renderCarousel();
+    }
+
+    // setInterval(nextSlide, 3000);
+
+    const prevButton = document.querySelector('.arrivals-products__carousel-button-prev');
+    prevButton.addEventListener('click', prevSlide);
+
+
+    const nextButton = document.querySelector('.arrivals-products__carousel-button-next');
+    nextButton.addEventListener('click', nextSlide);
+
+    renderCarousel();
+
+    window.addEventListener('resize', renderCarousel);
 
 })();

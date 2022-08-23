@@ -12,6 +12,7 @@
     line-height: 16.8px;
     text-transform: uppercase;
     padding-bottom: 20px;
+    margin-top: 60px;
 }
 .arrivals__subtitle {
     color: var(--h3-text-color);
@@ -36,6 +37,7 @@
 }
 .arrivals-product-image {
     padding: 15px 0px;
+    margin: auto;
 }
 .arrivals-product-description {
     color: var(--text-color);
@@ -59,4 +61,16 @@
     font-weight: 600;
     line-height: 15.4px;
     border-radius: 5px;
+}
+.arrivals-products__carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.arrivals-products__carousel-slides {
+    display: flex;
+    justify-content: space-around;
+}
+.arrivals-product__card {
+    padding: 0px 15px;
 }
