@@ -12,14 +12,14 @@
     font-weight: 600;
     line-height: 16.8px;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .arrivals__subtitle {
     color: var(--h3-text-color);
     font-size: 34px;
     font-weight: 600;
     line-height: 37.4px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 .arrivals__content hr {
     color: var(--h2-text-color);
@@ -32,11 +32,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    padding: 30px 0px;
+    padding: 15px 0px;
     
 }
 .arrivals-product-image {
-    padding: 15px 0px 45px 0px;
+    padding: 15px 0px;
     margin: auto;
 }
 .arrivals-product-description {
