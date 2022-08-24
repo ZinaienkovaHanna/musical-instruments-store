@@ -57,7 +57,7 @@ align-items: center;
 }
 .popup .navigation__social {
   width: 100%;
-  max-width: 100px;
+  max-width: 125px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,6 +68,9 @@ align-items: center;
 }
 .navigation__social [class*="icon__"] {
   width: 25px;
+}
+header .navigation__social img:hover {
+  transform: scale(1.5);
 }
 .popup .menu__link {
   color: var(--text-color-background);
@@ -143,11 +146,11 @@ align-items: center;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      gap: 5px;
+      gap: 10px;
       margin: auto; 
     }
-    header .navigation__social img {
-      fill: nsl(204, 70%, 23%);
+    header .navigation__social img:hover {
+      transform: scale(1.5);
     }
     .menu__link {
      color: var(--text-color-background);
