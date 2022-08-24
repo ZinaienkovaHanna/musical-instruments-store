@@ -1,8 +1,9 @@
 @import url(common.css);
 @import url(controls.css);
 @import url(owl-carousel-adv.css); /*4*/
-@import url(header.css);
-@import url(header-burger.css);
+@import url(header-banner-main.css); /*1*/
+@import url(header-nav.css); /*1*/
+@import url(header-contacts.css); /*1*/
 @import url(advertisement.css); /* 2-3-4 */
 @import url(new-arrivals.css); /* 5 */
 @import url(sale.css);  /* 6-7 */

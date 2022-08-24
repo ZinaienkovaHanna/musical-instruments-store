@@ -38,10 +38,11 @@
         <h5>Welcome to Our Musical Instruments Store!</h5>
       </div>
       <div class="contacts__info">
-        <a href="#">sound@email.com</a>
-        <a href="#">+1 (234) 567 89 00</a>
+        <a href="sound@email.com">sound@email.com</a>
+        <a href="tel:+12345678900">+1 (234) 567 89 00</a>
       </div>
     </div>
+
     <div class="navigation__background">
       <div class="navigation__container">
         <nav class="navigation">
@@ -49,30 +50,35 @@
             <a href="/">
               <img src="img/header/header-logo.svg" alt="logo" />
             </a>
-            <div class="navigation-burger"><span></span></div>
+            <div id="burger" class="navigation-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-          <div class="navigation-wrapper">
+          <div id="navigation-wrapper" class="navigation-wrapper">
             <div class="navigation__menu">
-              <a href="#" class="menu__link">New Arrivals</a>
-              <a href="#" class="menu__link">Best-Selling</a>
-              <a href="#" class="menu__link">Guitars</a>
-              <a href="#" class="menu__link">Drums</a>
-              <a href="#" class="menu__link">Orchestric</a>
-              <a href="#" class="menu__link">Contacts</a>
+              <a href="#" class="navigations__new-arrivals menu__link">New Arrivals</a>
+              <a href="#" class="navigations__best-selling menu__link">Best-Selling</a>
+              <a href="#" class="navigations__guitars menu__link">Guitars</a>
+              <a href="#" class="navigations__drums menu__link">Drums</a>
+              <a href="#" class="navigations__orchestric menu__link">Orchestric</a>
+              <a href="#" class="navigations__contacts menu__link">Contacts</a>
             </div>
             <div class="navigation__social">
-              <a href="#">
-                <img src="img/header/facebook.svg" alt="facebook" class="icon__facebook" width="25px" />
+              <a href="https://www.facebook.com/">
+                <img src="img/header/facebook.svg" alt="facebook" class="icon__facebook" target="blank" width="25px" />
               </a>
-              <a href="#">
-                <img src="img/header/instagram.svg" alt="instagram" class="icon__instagram" width="25px" />
+              <a href="https://www.instagram.com/">
+                <img src="img/header/instagram.svg" alt="instagram" class="icon__instagram" target="blank" width="25px" />
               </a>
-              <a href="#">
-                <img src="img/header/youtube.svg" alt="youtube" class="icon__youtube" width="25px" />
+              <a href="https://www.youtube.com/">
+                <img src="img/header/youtube.svg" alt="youtube" class="icon__youtube" target="blank" width="25px" />
               </a>
             </div>
           </div>
         </nav>
+        <div id="popup" class="popup"></div>
       </div>
     </div>
     <div class="container__background-image">
@@ -360,6 +366,7 @@
     crossorigin="anonymous"></script>
 
   <!-- <script src="js/header-burger.js"></script> -->
+  <script src="js/header-burger.js"></script>
   <script src="js/js-carousel-adv.js"></script>
   <script src="js/countdown-timer.js"></script>
   <script src="js/new-arrivals-carousel.js"></script>

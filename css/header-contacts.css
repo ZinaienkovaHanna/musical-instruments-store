@@ -1,0 +1,30 @@
+header .contacts__container {
+    max-width: 100%;
+    display: none;
+  }
+  @media (min-width: 992px) {
+      header .contacts__container {
+      display: block;
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      min-height: 42px;
+      align-items: center;
+     }   
+  }
+  .contacts__title h5 {
+      color: var(--text-color);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.999px;
+  }
+  .contacts__info a {
+      color: var(--text-color);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.999px;
+  
+  }
+  .contacts__info a:first-child {
+      padding-right: 20px;
+  }
