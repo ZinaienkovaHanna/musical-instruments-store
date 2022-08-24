@@ -62,4 +62,8 @@
       line-height: 15.4px;
       border-radius: 5px;
   }
+  .banner__button:hover {
+    background-color: var(--h3-text-color);
+    color: var(--text-color-background);
+  }
   
