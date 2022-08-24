@@ -18,6 +18,9 @@
   --special-offer-p-text-color: rgba(255, 255, 255, 0.77);
   --promotion-text-color: rgba(255, 255, 255, 0.55);
   --info-text-color: #757575;
+  --phone-text-color: #f8b803;
+  --quick-links-color: rgba(255, 255, 255, 0.42);
+  --creator-background-color: rgb(30, 30, 30);
   scroll-behavior: smooth;
   
   --text-color-grey-dark: rgb(36, 36, 36);

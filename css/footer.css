@@ -1,15 +1,133 @@
-.footer__container {
+.footer {
     padding: 40px 20px;
     margin: 0 auto;
     background-color: var(--text-color-grey-dark);
 }
 
-.info__text {
-    color: var(--info-text-color);
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* Додати перед hr свій клас, background-color робить цю риску білою і її не видно по всьому сайту */
-/* hr {
+
+.footer img {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+.footer__line {
     background-color: var(--text-color-background);
     width: 50%;
     margin: auto;
-} */
+}
+
+.info__phone {
+    margin: 40px 0;
+}
+
+.info__text {
+    color: var(--info-text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.phone {
+    display: block;
+    color: var(--phone-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer a:hover {
+    color: var(--phone-text-color);
+    text-decoration: underline;
+}
+
+.info__mail {
+    margin: 40px 0;
+}
+
+.mail {
+    display: block;
+    color: var(--phone-text-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+.email__input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 120px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(89, 89, 89, 0.24);
+    text-shadow: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.email__btn {
+    display: block;
+    margin: 0 auto;
+    color: var(--text-color-background);
+    background-color: var(--phone-text-color);
+    padding: 10px 100px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+[class*="__links"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links__header {
+    color: var(--text-color-background);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.links {
+    color: var(--quick-links-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--creator-background-color);
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.creator__text {
+    color: var(--text-color-background);
+    font-size: 14px;
+    font-weight: 500;
+
+}
