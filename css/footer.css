@@ -105,7 +105,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.footer__links {
+    background-color: var(--text-color-grey-dark);
+}
 .links__header {
     color: var(--text-color-background);
     font-size: 18px;
