@@ -107,6 +107,7 @@
 }
 .footer__links {
     background-color: var(--text-color-grey-dark);
+    padding-bottom: 60px;
 }
 .links__header {
     color: var(--text-color-background);
