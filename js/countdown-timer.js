@@ -18,17 +18,7 @@ const x = setInterval(function () {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="days/hours/minutes/seconds"
-  obj = { days: days, hours: hours, minutes: minutes, seconds: seconds };
+  const obj = { days: days, hours: hours, minutes: minutes, seconds: seconds };
   for (const key in obj) document.getElementById(key).innerHTML = obj[key];
   
 }, 1000);
-
-
-    // document.getElementById("countdown-timer").innerHTML = days + "d " + hours + "h "
-    //     + minutes + "m " + seconds + "s ";
-
-    // // If the count down is over, write some text
-    // if (distance < 0) {
-    //     clearInterval(x);
-    //     document.getElementById("countdown-timer").innerHTML = "EXPIRED";
-    // }
