@@ -1,0 +1,66 @@
+.drum-set-horton__container div.container {
+  max-width: 100%;
+}
+
+.drum-set-horton__container .card-body {
+  background-color: #fafafa;
+  padding: 30px;
+  max-height: 380px;
+}
+
+.dsh-h2 {
+  color: var(--text-color-gold);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.dsh-h3 {
+  color: var(--text-color-grey-dark);
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.dsh-p {
+  color: var(--text-color-grey-light);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dsh-old-price {
+  color: var(--text-color-grey-light-035);
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.dsh-new-price {
+  color: var(--text-color-green);
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.dsh-a {
+  color: white;
+  background-color: var(--text-color-grey-dark);
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dsh-a:hover {
+  color: white;
+  background-color: var(--text-color-gold);
+  transition-duration: 0.1s;
+}
+
+.dsh-img {
+  max-width: 320px;
+  margin: auto;
+}
+
+.dsh-img img {
+  object-fit: contain;
+  object-position: 12% 50%;
+}

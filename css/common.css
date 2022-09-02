@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   /*    border: 1px solid red;   */
 }
 
@@ -22,36 +22,31 @@
   --quick-links-color: rgba(255, 255, 255, 0.42);
   --creator-background-color: rgb(30, 30, 30);
   scroll-behavior: smooth;
-  
+
   --text-color-grey-dark: rgb(36, 36, 36);
   --text-color-grey-dark-054: rgba(36, 36, 36, 0.54);
   --text-color-grey-light: rgb(119, 119, 119);
+  --text-color-grey-light-035: rgb(119, 119, 119, 0.35);
   --text-color-white: rgb(255, 255, 255);
   --text-color-white-077: rgba(255, 255, 255, 0.77);
   --text-color-white-055: rgba(255, 255, 255, 0.55);
   --text-color-gold: rgb(248, 184, 3);
   --text-color-green: rgb(102, 153, 4);
-
-
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 a {
   text-decoration: none;
-}  
+}
 
 ul,
 ol,
 li {
   list-style: none;
-}  
+}
 
 .span__dot {
   color: var(--h2-text-color);
