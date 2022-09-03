@@ -1,23 +1,36 @@
-.cover {
-  padding: 0px 30px;
+.scroll-container {
   position: relative;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  margin: auto;
+  padding: 0px 30px;
+  /* margin: 20px; */
+  /* overflow-x: auto; */
 }
-.page-left {
-  position: absolute;
-  left: 0;
+@media (min-width: 770px) {
+  .scroll-container {
+    width: 33%;
+  }
+}
+
+.page-to-left,
+.page-to-right {
+  /* position: absolute; */
+  /* right: 0; */
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.page-right {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 .scroll-items {
-  width: 100%;
-  height: auto;
+  /* min-width: 30px; */
+  /* height: auto; */
+  /* margin-bottom: 10px; */
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -25,11 +38,12 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-.child button {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+/* .child button {
+   width: 100%; 
+  /object-fit: cover; 
+   object-position: center; 
+} */
+
 .scroll-items::-webkit-scrollbar {
   width: 5px;
   height: 8px;
@@ -40,17 +54,9 @@
   background-color: black;
 }
 
-.child {
-  min-width: 40px;
-  height: 100px;
-  margin: 1px 10px;
+.scroll-child {
+  min-width: 30px;
+  /* height: 100px; */
+  margin: 10px;
   overflow: hidden;
-}
-
-.page-left,
-.page-right {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
 }

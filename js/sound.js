@@ -4,14 +4,14 @@
   pageToLeft.addEventListener("click", () => leftScroll());
   function leftScroll() {
     const left = document.querySelector(".scroll-items");
-    left.scrollBy(200, 0);
+    left.scrollBy(100, 0);
   }
 
   const pageToRight = document.querySelector(".page-to-right");
   pageToRight.addEventListener("click", () => rightScroll());
   function rightScroll() {
     const right = document.querySelector(".scroll-items");
-    right.scrollBy(-200, 0);
+    right.scrollBy(-100, 0);
   }
 
   //reload windiw when record per page ghanged
@@ -70,8 +70,8 @@
     scrollItems.innerHTML = "";
     for (i = 1; i <= pageQty; i++) {
       scrollItems.innerHTML += `
-      <div class="child">
-          <button type="button" class="btn btn-warning btn-sm">${i}</button>
+      <div>
+          <button type="button" class="scroll-child btn btn-warning">${i}</button>
       </div>
       `;
     }
