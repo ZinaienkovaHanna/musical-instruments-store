@@ -8,7 +8,9 @@
 @import url(new-arrivals.css); /* 5 */
 @import url(sale.css); /* 6 */
 @import url(three-cards-menu.css); /* 7 */
-@import url(shop.css); /* 11 */
+@import url(shop-section.css); /* 11 */
 @import url(drum-set-horton-brown.css); /* 12 */
 @import url(special-offer.css);
 @import url(footer.css);
+@import url(sound.css); /* musical-instrument-store */
+@import url(sound-scroller.css); /* musical-instrument-store */

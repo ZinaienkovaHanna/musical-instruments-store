@@ -1,0 +1,56 @@
+.cover {
+  padding: 0px 30px;
+  position: relative;
+  margin-top: 20px;
+}
+.page-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scroll-items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.child button {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.scroll-items::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.scroll-items::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.child {
+  min-width: 40px;
+  height: 100px;
+  margin: 1px 10px;
+  overflow: hidden;
+}
+
+.page-left,
+.page-right {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

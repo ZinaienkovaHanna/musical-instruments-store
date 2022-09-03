@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Link to this original project -->
+  <!-- https://rsptj.weblium.site/ -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="icon" type="image/x-icon" href="img/favicon-m-i-store.png">
+
+  <link rel="stylesheet" href="css/index.css" />
+
+  <title>Musical Instruments Store</title>
+</head>
+<body>
+    <header>
+      <!-- ======================= Hanna 1 "Header" start ======================= -->
+      <div class="contacts__container">
+        <div class="contacts__title">
+          <h5>Welcome to Our Musical Instruments Store!</h5>
+        </div>
+        <div class="contacts__info">
+          <a href="sound@email.com">sound@email.com</a>
+          <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+        </div>
+      </div>
+      <div class="navigation__background">
+        <div class="navigation__container">
+          <nav class="navigation">
+            <div class="navigation__logo">
+              <a href="/">
+                <img src="img/header/header-logo.svg" alt="logo" />
+              </a>
+              <div id="burger" class="navigation-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div id="navigation-wrapper" class="navigation-wrapper">
+              <div id="menu" class="navigation__menu">
+                <a href="#new-arrivals" class="navigations__new-arrivals menu__link">New Arrivals</a>
+                <a href="#best-selling" class="navigations__best-selling menu__link">Best-Selling</a>
+                <a href="#best-prices" class="navigations__guitars menu__link">Guitars</a>
+                <a href="#best-prices" class="navigations__drums menu__link">Drums</a>
+                <a href="#best-prices" class="navigations__orchestric menu__link">Orchestric</a>
+                <a href="#footer" class="navigations__contacts menu__link">Contacts</a>
+              </div>
+              <div class="popup-contacts__container">
+                <div class="popup-contacts__title">
+                  <h5>Welcome to Our Musical Instruments Store!</h5>
+                </div>
+                <div class="popup-contacts__info">
+                  <a href="sound@email.com">sound@email.com</a>
+                  <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+                </div>
+              </div>
+              <div class="navigation__social">
+                <a href="https://www.facebook.com/">
+                  <img src="img/header/facebook.svg" alt="facebook" class="icon__facebook" target="blank" />
+                </a>
+                <a href="https://www.instagram.com/">
+                  <img src="img/header/instagram.svg" alt="instagram" class="icon__instagram" target="blank" />
+                </a>
+                <a href="https://www.youtube.com/">
+                  <img src="img/header/youtube.svg" alt="youtube" class="icon__youtube" target="blank" />
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div id="popup" class="popup"></div>
+        </div>
+      </div>
+      <!-- ======================= Hanna 1 "Header" end ======================= -->
+    </header>
+
+    <main>
+        <div class="store__container">
+            <h1>Store homepage</h1>
+            <h3 class="products-qty"></h3>
+            
+            <div class="scroll-container">
+              <button class="page-to-left">
+                <i class="material-symbols-outlined"> arrow_back_ios_new </i>
+              </button>
+              <div class="scroll-items" ></div>
+              <button class="page-to-right">
+                <i class="material-symbols-outlined"> arrow_forward_ios </i>
+              </button>
+            </div>
+                    
+            <div class="d-flex justify-content-center my-2" >
+              <p class="mx-2">Products per page: </p>
+              <select class="d-block" id="records-per-page">
+                    <option value="4">4</option>
+                    <option value="8" selected>8</option>
+                    <option value="12">12</option>
+                    <option value="40">40</option>
+                    <option value="80">80</option>
+               </select>
+            </div>
+
+            <div class="store-product-container row gy-3 gx-3"></div>
+
+
+        </div>
+    </main>
+
+    <footer>
+    <!-- Oleksandr`s section 16 start -->
+    <div id="footer" class="footer">
+      <div class="footer__info">
+        <div class="footer__sound">
+          <img src="img/header/header-logo.svg" width="300px" alt="logo" class="sound__img">
+          <p class="info__text sound__text">We are your ultimate stop if you're looking for any musical instruments, equipment, or
+            supplies. Shipping worldwide!</p>
+        </div>
+        <div class="info__phone">
+          <p class="info__text">Have a question?</p>
+          <p class="info__text">Call us any time!</p>
+          <hr class="footer__line">
+          <a href="tel:+12345678900" class="phone">+1 (234) 567 89 00</a>
+        </div>
+        <div class="info__mail">
+          <p class="info__text">Write to us!</p>
+          <p class="info__text">We're here for you 24/7!</p>
+          <hr class="footer__line">
+          <a href="mailto:sound@email.com" class="mail">sound@email.com</a>
+          </div class="email__info">
+            <label for="email__input">
+              <input type="text" placeholder="Email" class="email__input">
+              <a href="#" class="email__btn">Sign up to our newsletter</a>
+            </label>
+          </div>
+        </div>
+        
+      </div>
+        <div class="footer__links">
+          <div class="quick__links">
+            <h3 class="links__header">Quick links <span class="point">.</span></h3>
+            <a href="#" class="links">About Us</a>
+            <a href="#" class="links">Affilate</a>
+            <a href="#" class="links">Career</a>
+            <a href="#" class="links">Contacts</a>
+          </div>
+          <div class="company__links">
+            <h3 class="links__header">Company<span class="point">.</span></h3>
+            <a href="#" class="links">Order Tracking </a>
+            <a href="#" class="links">Customer Service</a>
+            <a href="#" class="links"> Returns</a>
+            <a href="#" class="links"> Product Support</a>
+          </div>
+          <div class="shop__links">
+            <h3 class="links__header">Shop <span class="point">.</span></h3>
+            <a href="#" class="links">New Arrivals</a>
+            <a href="#" class="links"> Instruments</a>
+            <a href="#" class="links"> Bestsellers</a>
+            <a href="#" class="links">Sale</a>
+          </div>
+          <div class="customer__links">
+            <h3 class="links__header">Customer Care <span class="point">.</span></h3>
+            <a href="#" class="links">Policy</a>
+            <a href="#" class="links">Term & Conditions</a>
+            <a href="#" class="links">Shipping</a>
+            <a href="#" class="links">FAQ</a>
+          </div>
+        </div>
+    </div>
+    <div class="footer__creator">
+      <div class="creator">
+        <div class="created">
+          <p class="creator__text">© Created by</p>
+        </div>
+        <div class="rights">
+          <p class="creator__text">All rights Reserved</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    <!-- Oleksandr`s section 16 end -->
+    </footer>
+
+
+ <!-- -------scripts for bootstrap and owl-carousel---------------- -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+ integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+ integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"></script>
+
+<script src="js/header-burger.js"></script>
+<script src="js/js-carousel-adv.js"></script>
+<script src="js/countdown-timer.js"></script>
+<script src="js/new-arrivals-carousel.js"></script>
+<script src="js/products.js"></script>
+<script src="js/shop-section.js"></script>
+<script src="js/sound.js"></script>
+</body>
+
+</html>
