@@ -33,7 +33,7 @@
   /* margin-bottom: 10px; */
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;

@@ -25,9 +25,9 @@
 
   //select limited q-ty products to dispalay at store
   const recordsPerPage = recordsPerPageId.value;
-  function selectProductsToDisplay(products, recordsPerPage, page) {
+  function selectProductsToDisplay(products, recordsPerPage, pageNumber) {
     const arr = [];
-    const start = recordsPerPage * (page - 1);
+    const start = recordsPerPage * (pageNumber - 1);
     for (let i = 0; i < recordsPerPage; i++) {
       arr.push(products[start + i]);
     }
@@ -56,12 +56,14 @@
     }
   }
 
-  let page = 1;
-  // render selected products cards at store
+  let pageNumber = 1;
+
+  // render selected products cards at store, page 1 by default
   renderProductsInStore(
-    selectProductsToDisplay(products, recordsPerPage, page)
+    selectProductsToDisplay(products, recordsPerPage, pageNumber)
   );
 
+  // render buttons for page selector: "< 1 2 ... >"
   const pageQty = Math.ceil(totalProducts / recordsPerPage);
   renderButtons(pageQty);
 
@@ -71,9 +73,19 @@
     for (i = 1; i <= pageQty; i++) {
       scrollItems.innerHTML += `
       <div>
-          <button type="button" class="scroll-child btn btn-warning">${i}</button>
+          <button type="button" class="scroll-child btn btn-warning" value="${i}">${i}</button>
       </div>
       `;
     }
+  }
+
+  // render product cards for selected number of page
+  const pages = document.querySelectorAll(".scroll-child");
+  for (const page of pages) {
+    page.addEventListener("click", () =>
+      renderProductsInStore(
+        selectProductsToDisplay(products, recordsPerPage, page.value)
+      )
+    );
   }
 })();
