@@ -14,7 +14,7 @@
     right.scrollBy(-100, 0);
   }
 
-  //reload windiw when record per page ghanged
+  //reload windiw when record per page changed
   const recordsPerPageId = document.getElementById("records-per-page");
   recordsPerPageId.addEventListener("change", () => location.reload());
 

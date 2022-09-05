@@ -1,6 +1,6 @@
 products = [
   {
-    id: "37",
+    id: 37,
     name: "AER B-Flat Professional Bass Horn",
     type: "orchestric",
     inStock: true,
@@ -13,7 +13,7 @@ products = [
   },
 
   {
-    id: "43",
+    id: 43,
     name: "Blue Dream Rozetta Violin",
     type: "orchestric",
     inStock: true,
@@ -29,7 +29,7 @@ products = [
   },
 
   {
-    id: "42",
+    id: 42,
     name: "BlueWater BWL1000 Ultimate Snare Drum",
     type: "drums",
     inStock: true,
@@ -42,7 +42,7 @@ products = [
   },
 
   {
-    id: "53",
+    id: 53,
     name: "Bosner AT1 Accordion in Gold",
     type: "other",
     inStock: true,
@@ -59,7 +59,7 @@ products = [
   },
 
   {
-    id: "51",
+    id: 51,
     name: "Bover Rover ERSTQ56 Snare Drum",
     type: "drums",
     inStock: true,
@@ -76,7 +76,7 @@ products = [
   },
 
   {
-    id: "24",
+    id: 24,
     name: "Dave Nickson DV2 Electric Guitar",
     type: "electric",
     inStock: true,
@@ -93,7 +93,7 @@ products = [
   },
 
   {
-    id: "26",
+    id: 26,
     name: "Dean Doe TRO4506 Electric Guitar",
     type: "electric",
     inStock: true,
@@ -110,7 +110,7 @@ products = [
   },
 
   {
-    id: "47",
+    id: 47,
     name: "Deanson VV02 Acoustic Guitar",
     type: "acoustic",
     inStock: true,
@@ -128,7 +128,7 @@ products = [
   },
 
   {
-    id: "35",
+    id: 35,
     name: "Dervin 5-Piece Shell Pack",
     type: "drums",
     inStock: true,
@@ -145,7 +145,7 @@ products = [
   },
 
   {
-    id: "23",
+    id: 23,
     name: "Dickson Studio ER100 Electric Guitar",
     type: "electric",
     inStock: true,
@@ -158,7 +158,7 @@ products = [
   },
 
   {
-    id: "21",
+    id: 21,
     name: "Dickson DR1000 Boutique Guitar",
     type: "electic",
     inStock: true,
@@ -175,7 +175,7 @@ products = [
   },
 
   {
-    id: "32",
+    id: 32,
     name: "Donny Stavanger SRT12 Alto Saxophone",
     type: "orchestric",
     inStock: true,
@@ -188,7 +188,7 @@ products = [
   },
 
   {
-    id: "19",
+    id: 19,
     name: "Dowson DDR100 Acoustic Guitar",
     type: "acoustic",
     inStock: true,
@@ -201,7 +201,7 @@ products = [
   },
 
   {
-    id: "46",
+    id: 46,
     name: "Dowson Exotic RTV004",
     type: "electric",
     inStock: true,
@@ -218,7 +218,7 @@ products = [
   },
 
   {
-    id: "52",
+    id: 52,
     name: "Dowson Little Roomer Snare Drum       ",
     type: "drums",
     inStock: true,
@@ -235,7 +235,7 @@ products = [
   },
 
   {
-    id: "41",
+    id: 41,
     name: "Ericson Beech Wood Snare Drum        ",
     type: "drums",
     inStock: true,
@@ -251,7 +251,7 @@ products = [
   },
 
   {
-    id: "39",
+    id: 39,
     name: "Ericson Black&White Snare Drum       ",
     type: "drums",
     inStock: true,
@@ -267,7 +267,7 @@ products = [
   },
 
   {
-    id: "40",
+    id: 40,
     name: "Ericson White Crystal Snare Drum  ",
     type: "drums",
     inStock: true,
@@ -283,7 +283,7 @@ products = [
   },
 
   {
-    id: "50",
+    id: 50,
     name: "Fogue RA-090 Acoustic Guitar     ",
     type: "acoustic",
     inStock: true,
@@ -303,7 +303,7 @@ products = [
   },
 
   {
-    id: "27",
+    id: 27,
     name: "Frester RD2 Electric Guitar          ",
     type: "electric",
     inStock: true,
@@ -320,7 +320,7 @@ products = [
   },
 
   {
-    id: "30",
+    id: 30,
     name: "GVC Cool Style Electric Guitar",
     type: "electric",
     inStock: true,
@@ -337,7 +337,7 @@ products = [
   },
 
   {
-    id: "55",
+    id: 55,
     name: "Hohner Silver Star ERX3 Harmonica",
     type: "other",
     inStock: true,
@@ -354,7 +354,7 @@ products = [
   },
 
   {
-    id: "25",
+    id: 25,
     name: "Jackson RI405 Electric Guitar",
     type: "electric",
     inStock: true,
@@ -371,7 +371,7 @@ products = [
   },
 
   {
-    id: "18",
+    id: 18,
     name: "Jessica JS400 Acoustic Guitar",
     type: "acoustic",
     inStock: true,
@@ -388,7 +388,7 @@ products = [
   },
 
   {
-    id: "33",
+    id: 33,
     name: "Jiwa Studio JWL100 Single Row Tambourine ",
     type: "other",
     inStock: true,
@@ -401,7 +401,7 @@ products = [
   },
 
   {
-    id: "29",
+    id: 29,
     name: "Johnson RT2 Electric Guitar ",
     type: "other",
     inStock: true,
@@ -417,7 +417,7 @@ products = [
   },
 
   {
-    id: "49",
+    id: 49,
     name: "Kuro Music Studio S-35 Acoustic Guitar ",
     type: "acoustic",
     inStock: true,
@@ -435,7 +435,7 @@ products = [
   },
 
   {
-    id: "54",
+    id: 54,
     name: "Kurumba KK400 Bongo Drum in Green",
     type: "other",
     inStock: true,
@@ -452,7 +452,7 @@ products = [
   },
 
   {
-    id: "31",
+    id: 31,
     name: "Lewis Lewel ST-1 Student Violin",
     type: "orchestric",
     inStock: true,
@@ -469,7 +469,7 @@ products = [
   },
 
   {
-    id: "38",
+    id: 38,
     name: "Muratti Professional MB Oboe",
     type: "orchestric",
     inStock: true,
@@ -486,7 +486,7 @@ products = [
   },
 
   {
-    id: "44",
+    id: 44,
     name: "Raven Bee RB500 Exotic Style Guitar",
     type: "electric",
     inStock: true,
@@ -504,7 +504,7 @@ products = [
   },
 
   {
-    id: "45",
+    id: 45,
     name: "Raven Classic RT45 Electric Guitar",
     type: "electric",
     inStock: true,
@@ -521,7 +521,7 @@ products = [
   },
 
   {
-    id: "48",
+    id: 48,
     name: "Raven RT1 Acoustic-Electric Guitar ",
     type: "acoustic",
     inStock: true,
@@ -538,7 +538,7 @@ products = [
   },
 
   {
-    id: "36",
+    id: 36,
     name: "Simona SR-V Professional Violin",
     type: "orchestric",
     inStock: true,
@@ -554,7 +554,7 @@ products = [
   },
 
   {
-    id: "20",
+    id: 20,
     name: "Solid A100 Acoustic Guitar",
     type: "acoustic",
     inStock: true,
@@ -570,7 +570,7 @@ products = [
   },
 
   {
-    id: "28",
+    id: 28,
     name: "Sundance ART08 Guitar",
     type: "acoustic",
     inStock: true,
@@ -586,7 +586,7 @@ products = [
   },
 
   {
-    id: "34",
+    id: 34,
     name: "Winston WR-100 Electric Guitar",
     type: "acoustic",
     inStock: true,

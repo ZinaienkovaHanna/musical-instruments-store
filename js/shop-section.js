@@ -47,25 +47,18 @@
       productContainer.innerHTML += `
         <div class="product-card__wrapper col col-12 col-md-6 col-lg-3 mx-auto">
         <div class="product-card card">
-          <img product-card__image src="${product.picture}" class="card-img-top" alt="${product.name}">
+          <img class="product-card__image" src="${product.picture}" class="card-img-top" alt="${product.name}">
           <div class="product-card__body card-body">
-            <a class="product-card__href" href="">
+            <a class="product-card__href" href="/card.html">
               <h5 class="product-card__h5 card-title">${product.name}</h5>
             </a>
+            <p class="product-card__id d-none">${product.id}</p>
             <p class="product-card__price card-text">$${product.price}.00</p>
-            <a href="#" class="product-card__btn btn btn-dark">Add to Cart</a>
-          </div>
+            <a href="" class="product-card__btn btn btn-dark">Add to Cart</a>
+          </div> 
         </div>
       </div>
       `;
     }
   }
 })();
-
-// function selectProducts(products) {  //by type
-//   const arr = [];
-//   for (const product of products) {
-//     if (product.type === "electric") arr.push(product);
-//   }
-//   return arr;
-// }

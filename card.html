@@ -57,7 +57,7 @@
             <div id="navigation-wrapper" class="navigation-wrapper">
               <div id="menu" class="navigation__menu">
                 <a href="/index.html#new-arrivals" class="navigations__new-arrivals menu__link">New Arrivals</a>
-                <a href="#best-selling" class="navigations__best-selling menu__link">Best-Selling</a>
+                <a href="/index.html#best-selling" class="navigations__best-selling menu__link">Best-Selling</a>
                 <a href="#best-prices" class="navigations__guitars menu__link">Guitars</a>
                 <a href="#best-prices" class="navigations__drums menu__link">Drums</a>
                 <a href="#best-prices" class="navigations__orchestric menu__link">Orchestric</a>
@@ -90,37 +90,11 @@
       </div>
       <!-- ======================= Hanna 1 "Header" end ======================= -->
     </header>
-
+ 
     <main>
-        <div class="store__container">
-            <h1>Store homepage</h1>
-            <h3 class="products-qty"></h3>
-            <p>Select page:</p>
-            
-            <div class="scroll-container">
-              <div><button class="page-to-left">
-                <i class="material-symbols-outlined"> arrow_back_ios_new </i>
-              </button></div>
-              <div class="scroll-items"></div>
-              <div><button class="page-to-right">
-                <i class="material-symbols-outlined"> arrow_forward_ios </i>
-              </button></div>
-            </div>
-                    
-            <div class="d-flex justify-content-center my-2" >
-              <p class="mx-2">Products per page: </p>
-              <select class="d-block" id="records-per-page">
-                    <option value="4">4</option>
-                    <option value="8" selected>8</option>
-                    <option value="12">12</option>
-                    <option value="40">40</option>
-                    <option value="80">80</option>
-               </select>
-            </div>
-
-            <div class="store-product-container row gy-3 gx-3"></div>
-
-
+        <div class="store-card__container">
+            <a href="/sound.html" class="go-store-home">Store homepage</a>
+            <div class="one-card row" id="one-card-id"></div>
         </div>
     </main>
 
@@ -214,16 +188,15 @@
  crossorigin="anonymous"></script>
 
 <script src="js/header-burger.js"></script>
-<!-- <script src="js/js-carousel-adv.js"></script> -->
-<!-- <script src="js/countdown-timer.js"></script> -->
-<!-- <script src="js/new-arrivals-carousel.js"></script> -->
 <script src="js/products.js"></script>
-<!-- <script src="js/shop-section.js"></script> -->
-<script src="js/store-render.js"></script> 
-<script src="js/detail-card-render.js"></script> 
-<script src="js/get-card-id.js"></script> 
+<script src="js/shop-section.js"></script>
+<!-- <script src="js/store-render.js"></script> -->
+<script src="js/get-card-id.js"></script>
+<script src="js/detail-card-render.js"></script>
 
 
 </body>
 
 </html>
+
+
