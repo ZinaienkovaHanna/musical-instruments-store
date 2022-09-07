@@ -1,10 +1,10 @@
 @import url(common.css);
 @import url(controls.css);
-@import url(owl-carousel-adv.css); /*4*/
 @import url(header-banner-main.css); /*1*/
 @import url(header-nav.css); /*1*/
 @import url(header-contacts.css); /*1*/
 @import url(advertisement.css); /* 2-3-4 */
+@import url(adv-owl-carousel.css); /*4*/
 @import url(new-arrivals.css); /* 5 */
 @import url(sale.css); /* 6 */
 @import url(three-cards-menu.css); /* 7 */
@@ -12,5 +12,7 @@
 @import url(drum-set-horton-brown.css); /* 12 */
 @import url(special-offer.css);
 @import url(footer.css);
-@import url(sound.css); /* musical-instrument-store */
-/* @import url(sound-scroller.css); musical-instrument-store */
+@import url(store-total.css); /* musical-instrument-store */
+@import url(store-scroller.css); /* musical-instrument-store scroller*/
+@import url(detail-card.css); /* detail card in store*/
+@import url(cart.css); /* sticky button and cart*/

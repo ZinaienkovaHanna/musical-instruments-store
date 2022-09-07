@@ -1,0 +1,73 @@
+.store-card__container {
+  margin-top: 60px;
+}
+
+.go-store-home {
+  color: var(--text-color-grey-dark);
+}
+
+.go-store-home:hover {
+  color: var(--text-color-gold);
+}
+
+.in-stock {
+  color: var(--text-color-green);
+}
+
+.product-card__h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-color-grey-dark);
+}
+
+.one-card-product-id {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color-grey-light);
+}
+
+.one-card-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color-grey-light);
+}
+
+.one-card-input-field {
+  width: 15%;
+  height: 30px;
+}
+.one-card-input-btn {
+  width: 80%;
+  height: 40px;
+  color: var(--text-color-white);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--text-color-gold);
+  /* border-color: var(--text-color-gold); */
+  border-radius: 5px;
+  border: none;
+}
+
+.one-card-input-btn:hover {
+  background-color: var(--text-color-grey-dark);
+  transition: 0.2s;
+}
+
+.one-card-description {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--text-color-gold);
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color-grey-light);
+  border-bottom-color: var(--text-color-gold);
+}
+
+.one-card-description-text,
+.one-card-features,
+.one-card-features-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color-grey-light);
+}

@@ -92,8 +92,62 @@
     </header>
  
     <main>
+    
+<!-- Button trigger modal -->
+  <!-- sticky button for open shopiing cart is visible when cart isn`t empty
+      <div class="btn-cart text-center">  -->
+<button type="button" class="btn shadow btn-outline-ligh btn-cart text-center pt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <span class="btn-cart-text material-symbols-outlined">
+    shopping_bag
+    </span>
+    <div class="btn-cart-icon">2</div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title cart-header" id="staticBackdropLabel">Shopping cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="cart-product-list-container"></div>
+        <hr>
+        <div class="container">
+          <form class="form-contacts">
+            <div class="form-group row mx-0">
+              <label for="client-name" class="col-4 col-form-label">Name <span class="star">*</span></label>
+              <input class="form-control col-8" type="text" id="client-name" placeholder="Your name" required>
+            </div>
+            <div class="form-group row  mx-0">
+              <label for="client-email" class="col-4 col-form-label">Email <span class="star">*</span></label>
+              <input class="form-control col-8" type="email" id="client-email" placeholder="Your email adress"required>
+            </div>
+            <div class="form-group row mx-0">
+              <label for="client-name" class="col-4 col-form-label">Phone <span class="star ">*</span></label>
+              <input class="form-control col-8" type="text" id="client-name" placeholder="Your phone" required>
+            </div>
+            <div class="form-group mt-2">
+              <p class="px-2"> <label for="floatingTextarea2">Comment</label></p>
+              <textarea class="form-control" id="floatingTextarea2" style="height: 100px" placeholder="Your comment"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-lg btn-warning order">Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      
         <div class="store-card__container">
-            <a href="/sound.html" class="go-store-home">Store homepage</a>
+            <a href="/store-total.html" class="go-store-home">Store homepage</a>
             <div class="one-card row" id="one-card-id"></div>
         </div>
     </main>
@@ -186,13 +240,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
  crossorigin="anonymous"></script>
-
-<script src="js/header-burger.js"></script>
-<script src="js/products.js"></script>
-<script src="js/shop-section.js"></script>
-<!-- <script src="js/store-render.js"></script> -->
-<script src="js/get-card-id.js"></script>
-<script src="js/detail-card-render.js"></script>
+ 
+ <script src="js/header-burger.js"></script>
+ <script src="js/products.js"></script>
+ <!-- <script src="js/shop-section.js"></script> -->
+ <!-- <script src="js/store-render.js"></script> -->
+ <script src="js/get-card-id.js"></script>
+ <script src="js/detail-card-render.js"></script>
 
 
 </body>

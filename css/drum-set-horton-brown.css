@@ -35,6 +35,7 @@
 
 .dsh-new-price {
   color: var(--text-color-green);
+  margin-right: -10px;
   font-size: 34px;
   font-weight: 600;
 }

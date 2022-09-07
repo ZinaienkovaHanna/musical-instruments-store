@@ -1,0 +1,31 @@
+.product-card__href:hover {
+  color: var(--text-color-grey-light);
+  text-decoration: underline;
+}
+
+.product-card__h5-2 {
+  color: var(--text-color-grey-light);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.product-card__price {
+  color: var(--text-color-gold);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.product-card__btn-2 {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-color-white);
+  padding: 12px 28px;
+  width: 50%;
+}
+
+.product-card__btn-2:hover {
+  color: var(--text-color-white);
+  background-color: var(--text-color-grey-dark);
+  border: none;
+  transition-duration: 0.1s;
+}
