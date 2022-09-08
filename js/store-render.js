@@ -32,7 +32,6 @@
   //select limited q-ty products to dispalay at store
   function selectProductsToDisplay(products, recordsPerPage) {
     const arr = [];
-
     const start = recordsPerPage * (+localStorage.getItem("pageNumber") - 1);
     for (let i = 0; i < recordsPerPage; i++) {
       arr.push(products[start + i]);
@@ -86,11 +85,16 @@
     right.scrollBy(100, 0);
   }
 
-  //reload window when record per page changed
+  // location.reload());
+  //?????????????????????????????
   const recordsPerPageId = document.querySelector("#records-per-page");
   const recordsPerPage = recordsPerPageId.value;
-  recordsPerPageId.addEventListener("change", () => location.reload());
-  //?????????????????????????????
+  recordsPerPageId.addEventListener("change", () => {
+    renderButtons(totalProducts, recordsPerPage);
+    setPageNumber();
+  });
+
+  // location.reload());
 
   // render buttons for page selector: "< 1 2 ... >"
   renderButtons(totalProducts, recordsPerPage);
@@ -98,5 +102,17 @@
   renderProductsInStore(selectProductsToDisplay(products, recordsPerPage));
   //re-render page when press page selector "N" button
   setPageNumber();
+
+  //reload window when record per page changed
+
+  // setPageNumber());
+  // renderButtons(totalProducts, recordsPerPage);
+  // renderProductsInStore(selectProductsToDisplay(products, recordsPerPage));
+  // setPageNumber();
+
+  // alert(`hello`)
+  // );
+
+  // ;
   //
 })();
