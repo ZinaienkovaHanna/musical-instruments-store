@@ -109,14 +109,32 @@
                     
             <div class="d-flex justify-content-center my-2" >
               <p class="mx-2">Products per page: </p>
-              <select class="d-block" id="records-per-page">
+              <select id="records-per-page" class="d-block">
                     <option value="4">4</option>
                     <option value="8" selected>8</option>
                     <option value="12">12</option>
                     <option value="40">40</option>
                     <option value="80">80</option>
                </select>
-            </div>
+            </div>  
+            
+            <select name="select"> <!--Supplement an id here instead of using 'name'-->
+              <option value="value1">Значение 1</option>
+              <option value="value2" selected>Значение 2</option>
+              <option value="value3">Значение 3</option>
+            </select>
+
+            <!-- <div class="d-flex justify-content-center my-2" >
+              <p class="mx-2">Products per page: </p>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="records-per-page">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="40">40</option>
+              </select>
+            </div> -->
+
+           
 
             <div class="store-product-container row gy-3 gx-3"></div>
 
